@@ -24,7 +24,7 @@
 ### Performance Highlights
 
 - Achieves up to 2.07× higher throughput compared to vLLM.
-- Reduces SLO violation periods by 90.28% under bursty traffic conditions.
+- Reduces SLO violation periods by 90.28% under burst workloads conditions.
 - Maintains acceptable inference accuracy with minimal loss (around 5%).
 
 ## Current Limitations
