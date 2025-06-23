@@ -1,7 +1,7 @@
 # BrownoutServe: SLO-Aware Serving Approach with Brownout for MoE-based LLMs
 
 [![GitHub](https://img.shields.io/github/stars/beyondHJM/BrownoutServe?style=social)](https://github.com/beyondHJM/BrownoutServe)
-[![GitHub license](https://img.shields.io/github/license/beyondHJM/BrownoutServe)](https://github.com/interestingLSY/swiftLLM?tab=Apache-2.0-1-ov-file)
+[![GitHub license](https://img.shields.io/github/license/beyondHJM/BrownoutServe)](https://github.com/beyondHJM/BrownoutServe/blob/main/LICENSE.txt)
 
 ## Introduction
 
