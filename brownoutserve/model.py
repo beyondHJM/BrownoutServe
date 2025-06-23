@@ -208,23 +208,7 @@ class TransformerLayer:
                 self.gpu_manager.allocate_blocks_for_new_seqs(
                     k, v, infer_state, self.layer_id
                 )
-
-                if not self.support_flash_attn:
-                    o[: infer_state.num_prefill_tokens, :] = (
-                        vllm_flash_attn.flash_attn_varlen_func(
-                            q[: infer_state.num_prefill_tokens, :, :],
-                            k[: infer_state.num_prefill_tokens, :, :],
-                            v[: infer_state.num_prefill_tokens, :, :],
-                            infer_state.prefill_seq_start_locs_with_end,
-                            infer_state.prefill_seq_start_locs_with_end,
-                            infer_state.max_prefill_len,
-                            infer_state.max_prefill_len,
-                            softmax_scale=infer_state.softmax_scale,
-                            causal=True,
-                        ).reshape(-1, self.model_config.hidden_size)
-                    )
-                else:
-                    prefill_attention(
+                prefill_attention(
                         q[: infer_state.num_prefill_tokens, :, :],
                         k[: infer_state.num_prefill_tokens, :, :],
                         v[: infer_state.num_prefill_tokens, :, :],
@@ -233,7 +217,6 @@ class TransformerLayer:
                         infer_state,
                     )
 
-  
 ##########################
         
         if infer_state.num_decoding_seqs > 0:
