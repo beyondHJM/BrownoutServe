@@ -5,7 +5,7 @@
 
 ## Introduction
 
-`BrownoutServe` is an innovative serving system designed for Mixture-of-Experts (MoE) based Large Language Models (LLMs). It optimizes inference efficiency and maintains service reliability under dynamic computational demands and traffic conditions by introducing United Experts and a dynamic Brownout mechanism. Additionally, it integrates state-of-the-art optimization techniques such as PagedAttention, FlashAttention, and continuous batching to further enhance performance.
+`BrownoutServe` is an innovative serving system designed for Mixture-of-Experts (MoE) based Large Language Models (LLMs). It optimizes inference efficiency and maintains service reliability under dynamic computational demands and workload conditions by introducing United Experts and a dynamic Brownout mechanism. Additionally, it integrates state-of-the-art optimization techniques such as PagedAttention, FlashAttention, and ContinuousBatching to further enhance performance.
 
 ## Features
 
@@ -13,7 +13,7 @@
 
 - **United Experts**: Integrates knowledge from multiple expert models into a single "united expert" to reduce the number of expert accesses during inference, improving GPU parallelism and reducing latency.
 - **Brownout Mechanism**: Dynamically routes a subset of tokens to united experts under resource constraints or burst workloads, reducing expert access overhead and helping maintain SLO attainment.
-- **SLO-Aware Latency Control Algorithm**:Real-time adjusts the Brownout configuration to minimize accuracy loss while ensuring inference latency meets SLO, even under dynamic request environments and sudden load spikes.
+- **SLO-Aware Latency Control Algorithm**: Real-time adjusts the Brownout configuration to minimize accuracy loss while ensuring inference latency meets SLO, even under dynamic request environments and sudden load spikes.
 
 ### Integrated Optimizations
 

@@ -19,14 +19,14 @@ def chat_template(prompts:List[str])->List[str]:
 way=8
 greedy=True
 debug_info=[[] for _ in range(24)]
-brownout_config = BrownoutConfig(top_p=0.6,way=way,united_experts_weight_dirctory=f"/root/hujianmin/qwen2_moe_i/{way}_way_united_experts_test",debug_info=debug_info,greedy=greedy,use_fused_moe=True)
+brownout_config = BrownoutConfig(top_p=0.6,way=way,united_experts_weight_dirctory=f"/root/hujianmin/qwen2_moe_i/{way}_way_united_experts_test",use_fused_moe=True)
 prompts =[
  
 "what is Huawei?",
 
 ]
 model = LLM.build(
-            model_path="/root/llm-resource/Models/Qwen1.5-MoE-A2.7B-Chat",
+            model_path="/root/llm-resource/Models/Qwen1.5-MoE-A2.7B-Chat", # Replace with your own model path
             max_seq_len=256, # 2048 # 512
             max_batch_size=128,
             brownout_config=brownout_config,
