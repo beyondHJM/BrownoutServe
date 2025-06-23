@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: BrownoutServe
+Version: 0.0.1
+Summary: A SLO-Aware Serving Approach with Brownout under Burst Workloads for MoE-based LLMs
+Author: Jianmin Hu

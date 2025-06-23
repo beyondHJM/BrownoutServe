@@ -1,0 +1,962 @@
+[
+ {
+  "use_fused_moe": false,
+  "way": 2,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 0.0,
+  "rps": 0.4,
+  "duration": 100,
+  "throughput": 26.19672131147541
+ },
+ {
+  "use_fused_moe": false,
+  "way": 2,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 0.0,
+  "rps": 0.8,
+  "duration": 100,
+  "throughput": 38.80446927374302
+ },
+ {
+  "use_fused_moe": false,
+  "way": 2,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 0.0,
+  "rps": 1.2,
+  "duration": 100,
+  "throughput": 55.030674846625764
+ },
+ {
+  "use_fused_moe": false,
+  "way": 2,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 0.0,
+  "rps": 1.6,
+  "duration": 100,
+  "throughput": 66.4829268292683
+ },
+ {
+  "use_fused_moe": false,
+  "way": 2,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 0.0,
+  "rps": 2.0,
+  "duration": 100,
+  "throughput": 78.14015151515152
+ },
+ {
+  "use_fused_moe": false,
+  "way": 2,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 0.0,
+  "rps": 2.4,
+  "duration": 100,
+  "throughput": 95.94498381877023
+ },
+ {
+  "use_fused_moe": false,
+  "way": 2,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 0.0,
+  "rps": 2.8,
+  "duration": 100,
+  "throughput": 96.79929577464789
+ },
+ {
+  "use_fused_moe": false,
+  "way": 2,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 0.0,
+  "rps": 3.2,
+  "duration": 100,
+  "throughput": 116.34892086330935
+ },
+ {
+  "use_fused_moe": false,
+  "way": 2,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 0.0,
+  "rps": 3.6,
+  "duration": 100,
+  "throughput": 123.84666666666666
+ },
+ {
+  "use_fused_moe": false,
+  "way": 2,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 0.0,
+  "rps": 4.0,
+  "duration": 100,
+  "throughput": 108.97050147492625
+ },
+ {
+  "use_fused_moe": false,
+  "way": 2,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.0,
+  "rps": 4.4,
+  "duration": 100,
+  "throughput": 165.6951871657754
+ },
+ {
+  "use_fused_moe": false,
+  "way": 2,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.0,
+  "rps": 4.8,
+  "duration": 100,
+  "throughput": 183.18617021276594
+ },
+ {
+  "use_fused_moe": false,
+  "way": 2,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.0,
+  "rps": 5.2,
+  "duration": 100,
+  "throughput": 166.954128440367
+ },
+ {
+  "use_fused_moe": false,
+  "way": 2,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.0,
+  "rps": 5.6,
+  "duration": 100,
+  "throughput": 197.34272300469485
+ },
+ {
+  "use_fused_moe": false,
+  "way": 2,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.0,
+  "rps": 6.0,
+  "duration": 100,
+  "throughput": 206.96875
+ },
+ {
+  "use_fused_moe": false,
+  "way": 2,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.0,
+  "rps": 6.4,
+  "duration": 100,
+  "throughput": 192.08906882591094
+ },
+ {
+  "use_fused_moe": false,
+  "way": 2,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.0,
+  "rps": 6.8,
+  "duration": 100,
+  "throughput": 212.9608695652174
+ },
+ {
+  "use_fused_moe": false,
+  "way": 2,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.0,
+  "rps": 7.2,
+  "duration": 100,
+  "throughput": 219.60995850622407
+ },
+ {
+  "use_fused_moe": false,
+  "way": 2,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.0,
+  "rps": 7.6,
+  "duration": 100,
+  "throughput": 226.17948717948718
+ },
+ {
+  "use_fused_moe": false,
+  "way": 2,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.0,
+  "rps": 8.0,
+  "duration": 100,
+  "throughput": 212.96958174904944
+ },
+ {
+  "use_fused_moe": false,
+  "way": 2,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.0,
+  "rps": 9.0,
+  "duration": 100,
+  "throughput": 239.8501872659176
+ },
+ {
+  "use_fused_moe": false,
+  "way": 2,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.0,
+  "rps": 10.0,
+  "duration": 100,
+  "throughput": 211.13390313390315
+ },
+ {
+  "use_fused_moe": false,
+  "way": 2,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.0,
+  "rps": 11.0,
+  "duration": 100,
+  "throughput": 227.85674931129478
+ },
+ {
+  "use_fused_moe": false,
+  "way": 2,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.0,
+  "rps": 12.0,
+  "duration": 100,
+  "throughput": 247.82777777777778
+ },
+ {
+  "use_fused_moe": false,
+  "way": 4,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 0.2,
+  "rps": 0.4,
+  "duration": 100,
+  "throughput": 27.0
+ },
+ {
+  "use_fused_moe": false,
+  "way": 4,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 0.2,
+  "rps": 0.8,
+  "duration": 100,
+  "throughput": 37.95628415300546
+ },
+ {
+  "use_fused_moe": false,
+  "way": 4,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 0.2,
+  "rps": 1.2,
+  "duration": 100,
+  "throughput": 60.88343558282209
+ },
+ {
+  "use_fused_moe": false,
+  "way": 4,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 0.2,
+  "rps": 1.6,
+  "duration": 100,
+  "throughput": 70.1029411764706
+ },
+ {
+  "use_fused_moe": false,
+  "way": 4,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 0.2,
+  "rps": 2.0,
+  "duration": 100,
+  "throughput": 73.02564102564102
+ },
+ {
+  "use_fused_moe": false,
+  "way": 4,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 0.2,
+  "rps": 2.4,
+  "duration": 100,
+  "throughput": 81.55123674911661
+ },
+ {
+  "use_fused_moe": false,
+  "way": 4,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 0.2,
+  "rps": 2.8,
+  "duration": 100,
+  "throughput": 92.41216216216216
+ },
+ {
+  "use_fused_moe": false,
+  "way": 4,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 0.2,
+  "rps": 3.2,
+  "duration": 100,
+  "throughput": 108.29749103942652
+ },
+ {
+  "use_fused_moe": false,
+  "way": 4,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 0.2,
+  "rps": 3.6,
+  "duration": 100,
+  "throughput": 129.16433566433565
+ },
+ {
+  "use_fused_moe": false,
+  "way": 4,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 0.2,
+  "rps": 4.0,
+  "duration": 100,
+  "throughput": 141.1720430107527
+ },
+ {
+  "use_fused_moe": false,
+  "way": 4,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.2,
+  "rps": 4.4,
+  "duration": 100,
+  "throughput": 181.75
+ },
+ {
+  "use_fused_moe": false,
+  "way": 4,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.2,
+  "rps": 4.8,
+  "duration": 100,
+  "throughput": 200.92737430167597
+ },
+ {
+  "use_fused_moe": false,
+  "way": 4,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.2,
+  "rps": 5.2,
+  "duration": 100,
+  "throughput": 204.93333333333334
+ },
+ {
+  "use_fused_moe": false,
+  "way": 4,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.2,
+  "rps": 5.6,
+  "duration": 100,
+  "throughput": 214.57065217391303
+ },
+ {
+  "use_fused_moe": false,
+  "way": 4,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.2,
+  "rps": 6.0,
+  "duration": 100,
+  "throughput": 218.3671497584541
+ },
+ {
+  "use_fused_moe": false,
+  "way": 4,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.2,
+  "rps": 6.4,
+  "duration": 100,
+  "throughput": 242.91666666666666
+ },
+ {
+  "use_fused_moe": false,
+  "way": 4,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.2,
+  "rps": 6.8,
+  "duration": 100,
+  "throughput": 209.4273127753304
+ },
+ {
+  "use_fused_moe": false,
+  "way": 4,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.2,
+  "rps": 7.2,
+  "duration": 100,
+  "throughput": 243.8181818181818
+ },
+ {
+  "use_fused_moe": false,
+  "way": 4,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.2,
+  "rps": 7.6,
+  "duration": 100,
+  "throughput": 267.021164021164
+ },
+ {
+  "use_fused_moe": false,
+  "way": 4,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.2,
+  "rps": 8.0,
+  "duration": 100,
+  "throughput": 274.2413793103448
+ },
+ {
+  "use_fused_moe": false,
+  "way": 4,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.2,
+  "rps": 9.0,
+  "duration": 100,
+  "throughput": 277.08076923076925
+ },
+ {
+  "use_fused_moe": false,
+  "way": 4,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.2,
+  "rps": 10.0,
+  "duration": 100,
+  "throughput": 299.3855421686747
+ },
+ {
+  "use_fused_moe": false,
+  "way": 4,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.2,
+  "rps": 11.0,
+  "duration": 100,
+  "throughput": 301.35483870967744
+ },
+ {
+  "use_fused_moe": false,
+  "way": 4,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.2,
+  "rps": 12.0,
+  "duration": 100,
+  "throughput": 309.82246376811594
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 0.4,
+  "rps": 0.4,
+  "duration": 100,
+  "throughput": 23.4375
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 0.4,
+  "rps": 0.8,
+  "duration": 100,
+  "throughput": 40.619883040935676
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 0.4,
+  "rps": 1.2,
+  "duration": 100,
+  "throughput": 49.91616766467066
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 0.4,
+  "rps": 1.6,
+  "duration": 100,
+  "throughput": 63.18807339449541
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 0.4,
+  "rps": 2.0,
+  "duration": 100,
+  "throughput": 71.55778894472361
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 0.4,
+  "rps": 2.4,
+  "duration": 100,
+  "throughput": 99.12546125461255
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 0.4,
+  "rps": 2.8,
+  "duration": 100,
+  "throughput": 111.3709090909091
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 0.4,
+  "rps": 3.2,
+  "duration": 100,
+  "throughput": 122.68166089965398
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 0.4,
+  "rps": 3.6,
+  "duration": 100,
+  "throughput": 143.90804597701148
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 0.4,
+  "rps": 4.0,
+  "duration": 100,
+  "throughput": 139.9891304347826
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.4,
+  "rps": 4.4,
+  "duration": 100,
+  "throughput": 176.76300578034682
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.4,
+  "rps": 4.8,
+  "duration": 100,
+  "throughput": 193.643216080402
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.4,
+  "rps": 5.2,
+  "duration": 100,
+  "throughput": 196.5736040609137
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.4,
+  "rps": 5.6,
+  "duration": 100,
+  "throughput": 225.7808988764045
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.4,
+  "rps": 6.0,
+  "duration": 100,
+  "throughput": 227.7554347826087
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.4,
+  "rps": 6.4,
+  "duration": 100,
+  "throughput": 237.75531914893617
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.4,
+  "rps": 6.8,
+  "duration": 100,
+  "throughput": 254.6315789473684
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.4,
+  "rps": 7.2,
+  "duration": 100,
+  "throughput": 245.11219512195123
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.4,
+  "rps": 7.6,
+  "duration": 100,
+  "throughput": 284.5483870967742
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.4,
+  "rps": 8.0,
+  "duration": 100,
+  "throughput": 262.97767857142856
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.4,
+  "rps": 9.0,
+  "duration": 100,
+  "throughput": 262.3795918367347
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.4,
+  "rps": 10.0,
+  "duration": 100,
+  "throughput": 315.43290043290045
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.4,
+  "rps": 11.0,
+  "duration": 100,
+  "throughput": 345.98765432098764
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 0.4,
+  "rps": 12.0,
+  "duration": 100,
+  "throughput": 328.7480620155039
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 1.0,
+  "rps": 0.4,
+  "duration": 100,
+  "throughput": 31.616438356164384
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 1.0,
+  "rps": 0.8,
+  "duration": 100,
+  "throughput": 42.16949152542373
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 1.0,
+  "rps": 1.2,
+  "duration": 100,
+  "throughput": 50.16949152542373
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 1.0,
+  "rps": 1.6,
+  "duration": 100,
+  "throughput": 64.61057692307692
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 1.0,
+  "rps": 2.0,
+  "duration": 100,
+  "throughput": 74.01229508196721
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 1.0,
+  "rps": 2.4,
+  "duration": 100,
+  "throughput": 72.49532710280374
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 1.0,
+  "rps": 2.8,
+  "duration": 100,
+  "throughput": 81.37830687830687
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 1.0,
+  "rps": 3.2,
+  "duration": 100,
+  "throughput": 101.2695652173913
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 1.0,
+  "rps": 3.6,
+  "duration": 100,
+  "throughput": 119.978125
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 1.0,
+  "rps": 4.0,
+  "duration": 100,
+  "throughput": 110.32471264367815
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 1.0,
+  "rps": 4.4,
+  "duration": 100,
+  "throughput": 111.29329608938548
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 2048,
+  "threshold": 1.0,
+  "rps": 4.8,
+  "duration": 100,
+  "throughput": 128.89028213166145
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 1.0,
+  "rps": 5.2,
+  "duration": 100,
+  "throughput": 144.02991452991452
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 1.0,
+  "rps": 5.6,
+  "duration": 100,
+  "throughput": 169.23134328358208
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 1.0,
+  "rps": 6.0,
+  "duration": 100,
+  "throughput": 158.3235294117647
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 1.0,
+  "rps": 6.4,
+  "duration": 100,
+  "throughput": 166.06333333333333
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 1.0,
+  "rps": 6.8,
+  "duration": 100,
+  "throughput": 174.38129496402877
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 1.0,
+  "rps": 7.2,
+  "duration": 100,
+  "throughput": 182.78445229681978
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 1.0,
+  "rps": 7.6,
+  "duration": 100,
+  "throughput": 148.5702479338843
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 1.0,
+  "rps": 8.0,
+  "duration": 100,
+  "throughput": 162.77653631284917
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 1.0,
+  "rps": 9.0,
+  "duration": 100,
+  "throughput": 172.06887052341597
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 1.0,
+  "rps": 10.0,
+  "duration": 100,
+  "throughput": 180.945
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 1.0,
+  "rps": 11.0,
+  "duration": 100,
+  "throughput": 184.1639344262295
+ },
+ {
+  "use_fused_moe": false,
+  "way": 8,
+  "max_batch_size": 64,
+  "output_length": 1024,
+  "threshold": 1.0,
+  "rps": 12.0,
+  "duration": 100,
+  "throughput": 197.34666666666666
+ }
+]
