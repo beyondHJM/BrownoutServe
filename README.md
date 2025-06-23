@@ -1,5 +1,3 @@
-# BrownoutServe
-
 # BrownoutServe: SLO-Aware Serving Approach with Brownout for MoE-based LLMs
 
 [![GitHub](https://img.shields.io/github/stars/beyondHJM/BrownoutServe?style=social)](https://github.com/beyondHJM/BrownoutServe)
