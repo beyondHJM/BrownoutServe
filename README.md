@@ -1,11 +1,11 @@
 # BrownoutServe: SLO-Aware Serving Approach with Brownout for MoE-based LLMs
 
 [![GitHub](https://img.shields.io/github/stars/beyondHJM/BrownoutServe?style=social)](https://github.com/beyondHJM/BrownoutServe)
-[![GitHub license](https://img.shields.io/github/license/beyondHJM/BrownoutServe)](https://github.com/beyondHJM/BrownoutServe/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/beyondHJM/BrownoutServe)](https://github.com/interestingLSY/swiftLLM?tab=Apache-2.0-1-ov-file)
 
 ## Introduction
 
-`BrownoutServe` is an innovative serving system designed for Mixture-of-Experts (MoE) based Large Language Models (LLMs). It optimizes inference efficiency and maintains service reliability under dynamic computational demands and workload conditions by introducing United Experts and a dynamic Brownout mechanism. Additionally, it integrates state-of-the-art optimization techniques such as PagedAttention, FlashAttention, and ContinuousBatching to further enhance performance.
+`BrownoutServe` is an innovative serving framework designed for Mixture-of-Experts (MoE) based Large Language Models (LLMs). It optimizes inference efficiency and maintains service reliability under dynamic computational demands and workload conditions by introducing United Experts and a dynamic Brownout mechanism. Additionally, it integrates state-of-the-art optimization techniques such as PagedAttention, FlashAttention, and ContinuousBatching to further enhance performance.
 
 ## Features
 
