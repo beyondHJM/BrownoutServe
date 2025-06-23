@@ -2,8 +2,8 @@
 import json
 import time
 import torch
-from qwen2_moe_i.brownoutserve.generation import LLM
-from qwen2_moe_i.brownoutserve.brownout_config import BrownoutConfig
+from brownoutserve.generation import LLM
+from brownoutserve.brownout_config import BrownoutConfig
 
 # from input import prompts, max_new_token
 top_p=0

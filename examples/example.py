@@ -5,9 +5,9 @@ import random
 import time
 from typing import List
 import torch
-from qwen2_moe_i.brownoutserve.generation import LLM
+from brownoutserve.generation import LLM
 from transformers import  AutoTokenizer
-from qwen2_moe_i.brownoutserve.brownout_config import BrownoutConfig
+from brownoutserve.brownout_config import BrownoutConfig
 
 # from input import prompts, max_new_token
 # from model import count,gpu_count
