@@ -51,7 +51,7 @@ A SLO-Aware Serving Approach with Brownout under Burst Workloads for MoE-based L
 - CUDA 11.0+
 - NVIDIA GPU (A100-40GB recommended)
 
-### Installation Steps
+### Installation Steps and Quick Starting
 
 1. Clone the repository:
    ```bash
