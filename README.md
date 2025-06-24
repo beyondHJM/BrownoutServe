@@ -1,6 +1,6 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/dark-text-logo.png">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/light-text-logo.png">
     <img alt="BrownoutServe" src="./assets/dark-text-logo.png" width=55%>
   </picture>
 </p>
