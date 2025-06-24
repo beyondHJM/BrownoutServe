@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vllm-project/vllm/main/docs/assets/logos/vllm-logo-text-dark.png">
-    <img alt="vLLM" src="https://raw.githubusercontent.com/vllm-project/vllm/main/docs/assets/logos/vllm-logo-text-light.png" width=55%>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/dark-text-logo.png">
+    <img alt="BrownoutServe" src="./assets/dark-text-logo.png" width=55%>
   </picture>
 </p>
 
