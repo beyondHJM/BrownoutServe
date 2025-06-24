@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/beyondHJM/BrownoutServe/assets/light-text-logo.png">
-    <img alt="BrownoutServe" src="https://github.com/beyondHJM/BrownoutServe/assets/dark-text-logo.png" width=55%>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/light-text-logo.png">
+    <img alt="BrownoutServe" src="./assets/dark-text-logo.png" width=55%>
   </picture>
 </p>
 
