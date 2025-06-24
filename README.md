@@ -6,7 +6,7 @@
   </picture>
 </p>
 <h3 align="center">
-BrownoutServe: SLO-Aware Serving Approach with Brownout under Burst Workloads for MoE-based LLMs
+A SLO-Aware Serving Approach with Brownout under Burst Workloads for MoE-based LLMs
 </h3>
 
 [![GitHub](https://img.shields.io/github/stars/beyondHJM/BrownoutServe?style=social)](https://github.com/beyondHJM/BrownoutServe)
