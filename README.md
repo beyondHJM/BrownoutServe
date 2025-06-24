@@ -1,18 +1,18 @@
+[![GitHub](https://img.shields.io/github/stars/beyondHJM/BrownoutServe?style=social)](https://github.com/beyondHJM/BrownoutServe)
+[![GitHub license](https://img.shields.io/github/license/beyondHJM/BrownoutServe)](https://github.com/beyondHJM/BrownoutServe/blob/main/LICENSE.txt)
+
+---
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/light-text-logo.png">
     <img alt="BrownoutServe" src="./assets/dark-text-logo.png" width=55%>
   </picture>
 </p>
-
 <h3 align="center">
 BrownoutServe: SLO-Aware Serving Approach with Brownout under Burst Workloads for MoE-based LLMs
 </h3>
 
-
-
-[![GitHub](https://img.shields.io/github/stars/beyondHJM/BrownoutServe?style=social)](https://github.com/beyondHJM/BrownoutServe)
-[![GitHub license](https://img.shields.io/github/license/beyondHJM/BrownoutServe)](https://github.com/beyondHJM/BrownoutServe/blob/main/LICENSE.txt)
+---
 
 ## Introduction
 
