@@ -6,12 +6,10 @@
 </p>
 
 <h3 align="center">
-Easy, fast, and cheap LLM serving for everyone
+BrownoutServe: SLO-Aware Serving Approach with Brownout under Burst Workloads for MoE-based LLMs
 </h3>
 
----
 
-# BrownoutServe: SLO-Aware Serving Approach with Brownout under Burst Workloads for MoE-based LLMs
 
 [![GitHub](https://img.shields.io/github/stars/beyondHJM/BrownoutServe?style=social)](https://github.com/beyondHJM/BrownoutServe)
 [![GitHub license](https://img.shields.io/github/license/beyondHJM/BrownoutServe)](https://github.com/beyondHJM/BrownoutServe/blob/main/LICENSE.txt)
