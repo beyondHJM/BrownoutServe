@@ -50,6 +50,7 @@ A SLO-Aware Serving Approach with Brownout under Burst Workloads for MoE-based L
 - PyTorch 2.40+
 - CUDA 11.0+
 - NVIDIA GPU (A100-40GB recommended)
+- Qwen1.5-MoE-A2.7B-Chat's Weights
 
 ### Installation Steps and Quick Starting
 
