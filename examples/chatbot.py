@@ -19,7 +19,7 @@ def chat_template(prompts:List[str])->List[str]:
 way=8
 greedy=True
 debug_info=[[] for _ in range(24)]
-brownout_config = BrownoutConfig(top_p=0.6,way=way,united_experts_weight_dirctory=f"/root/hujianmin/qwen2_moe_i/{way}_way_united_experts_test",use_fused_moe=True)
+brownout_config = BrownoutConfig(top_p=0.6,way=way,united_experts_weight_dirctory=f"/root/hujianmin/qwen2_moe_i_t/{way}_way_united_experts_test",use_fused_moe=True)
 prompts =[
  
 "what is Huawei?",
@@ -36,6 +36,7 @@ model = LLM.build(
 prompts_with_chat_template = chat_template(prompts)
 input_ids = model.tokenizer(prompts_with_chat_template)['input_ids']
 
+# super means that use fused moe
 outputs = model.generate(input_ids,max_gen_len=100,temperature = 0,mode="super",brownout_config=brownout_config)
 
 

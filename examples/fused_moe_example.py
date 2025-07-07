@@ -44,12 +44,10 @@ prompts=text_list[:32]
  
 
 input_ids = model.tokenizer(prompts)['input_ids']
-# torch.cuda.synchronize()
-for i in range(8):
-        t1 = time.perf_counter()
-        outputs = model.generate(input_ids,max_gen_len=50,temperature = 0,mode="super" if brownout_config.use_fused_moe else 'infer',brownout_config=brownout_config,early_stop=False)
-        t2 = time.perf_counter()
-        print(t2-t1)
+
+t1 = time.perf_counter()
+outputs = model.generate(input_ids,max_gen_len=50,temperature = 0,mode="super" if brownout_config.use_fused_moe else 'infer',brownout_config=brownout_config,early_stop=False)
+
 
 # for i,prompt in enumerate(prompts):
 #         output_tokens = outputs[i]
