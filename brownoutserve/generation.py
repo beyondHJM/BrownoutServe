@@ -22,11 +22,23 @@ class LLM:
         max_seq_len: int,
         max_batch_size: int,
         brownout_config:BrownoutConfig=None,
-        devices: str = 'cuda:0',
+        devices: List[str] = ['cuda:0'],
         dtype:torch.dtype=torch.float16,
         seed: int = 1,
 
     ):
+        """
+        Builds and initializes the model.
+
+        Args:
+        model_path (str): The path to the pre-trained model.
+        max_seq_len (int): The maximum length of the sequence, which is the sum of input and output lengths.
+        max_batch_size (int): The maximum batch size for inference.
+        brownout_config (BrownoutConfig, optional): Configuration for brownout optimization (default is None).
+        devices (List[str], optional): A list of devices to run the model on, e.g., ['cuda:0', 'cuda:1'] for multi-GPU setup (default is ['cuda:0']).
+        dtype (torch.dtype, optional): The data type for model weights, e.g., torch.float16 (default is torch.float16).
+        seed (int, optional): The random seed for initialization (default is 1).
+        """
         # torch.manual_seed(seed)
         devices =sorted(list(set(devices)))
 

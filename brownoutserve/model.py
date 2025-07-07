@@ -272,7 +272,7 @@ class TransformerLayer:
         expert_weights = expert_weights.to(o.dtype)
 
 
-        if infer_state.mode == 'super':
+        if infer_state.mode=='super':
                  self.brownout_config.way = self.way
                  y = fused_moe(o,expert_indices,self.mlp_experts_up_proj_packaged,self.mlp_experts_gate_proj_packaged,self.mlp_experts_down_proj_packaged,infer_state,self.brownout_config,self.brownout_mask_map)
 

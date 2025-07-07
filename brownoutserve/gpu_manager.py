@@ -87,8 +87,16 @@ class GPUManager:
         infer_state: Qwen2MoEInferState,
         layer_id: torch.Tensor,
     ):
-        # print(f"prefill layer_id = {layer_id}")
-        cur_device = self.layers_device[layer_id]
+        """
+        Allocates memory blocks for the new sequences during inference.
+
+        Args:
+        keys (torch.Tensor): The tensor representing the keys for the new sequences.
+        values (torch.Tensor): The tensor representing the values associated with the keys.
+        infer_state (Qwen2MoEInferState): The current inference state, holding relevant metadata.
+        layer_id (torch.Tensor): The tensor representing the ID of the current layer being processed.
+
+        """
         seqs_len = infer_state.prefill_seq_lens
         assert (
             self.physical_k_cache_blocks is not None
@@ -113,13 +121,6 @@ class GPUManager:
             free_physical_blocks_indices = infer_state.free_physical_blocks_indices
 
         self.allocated_logical_blocks_indices[free_slots_indices] = 1
-        # if layer_id == 0:
-        #     cur_block_table = self.block_table
-        # else:
-        #     if cur_device == self.device:
-        #         cur_block_table = self.block_table
-        #     else:
-        #         cur_block_table = self.block_tables[cur_device]
         
 
         allocate_blocks_for_prefilling(
@@ -178,7 +179,7 @@ class GPUManager:
     def find_k_free_physical_blocks(
         self, k: int, to_allocate: bool = True
     ) -> torch.Tensor:
-        # with self.lock:
+
 
         free_blocks_indices = torch.nonzero(
             self.allocated_physical_kv_cache_blocks_indices == 0
@@ -221,14 +222,6 @@ class GPUManager:
             infer_state.physical_block_ids = infer_state.physical_block_ids
 
             
-
-        # if layer_id == 0:
-        #     cur_block_table = self.block_table
-        # else:
-        #     if cur_device == self.device:
-        #         cur_block_table = self.block_table
-        #     else:
-        #         cur_block_table = self.block_tables[cur_device]
 
         allocate_blocks_for_decoding(
             k,

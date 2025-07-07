@@ -10,6 +10,13 @@ class ExpertLoader:
         print("Experts Loader init successfully!")
     
     def update_united_experts(self,united_experts_weight_path:str,way:int):
+        """
+        Updates the weights for the united experts.
+
+        Args:
+        united_experts_weight_path (str): The file path to the new united experts' weights.
+        way (int): The number of routes for the united experts, indicating how the experts are grouped together.
+        """
         num_united_experts = (self.model.model_config.num_experts+way-1) // way
         weight_dict={}
         experts_once = 8

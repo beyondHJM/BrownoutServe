@@ -65,3 +65,6 @@ A SLO-Aware Serving Approach with Brownout under Burst Workloads for MoE-based L
     ```bash
     cd examples
     python chatbot.py
+
+### Note: 
+To obtain the pre-trained weights of United Experts, please contact us via email: **1830175462@qq.com**.

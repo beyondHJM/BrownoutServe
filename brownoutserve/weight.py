@@ -139,7 +139,9 @@ class Weight():
     
 
     def load_united_experts_weights(self):
-
+        if not os.path.isdir(self.brownout_config.united_experts_weight_dirctory):
+            print(f"Error: United experts'weight directory: {self.brownout_config.united_experts_weight_dirctory} not exists")
+            exit(0)
         weight_dict={}
         pbar = tqdm(total=3, desc="Loading united experts weight")
         for i in range(1,4):
