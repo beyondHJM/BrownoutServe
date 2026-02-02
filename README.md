@@ -18,6 +18,17 @@ A SLO-Aware Serving Approach with Brownout under Burst Workloads for MoE-based L
 
 `BrownoutServe` is an innovative serving framework designed for Mixture-of-Experts (MoE) based Large Language Models (LLMs). It optimizes inference efficiency and maintains service reliability under dynamic computational demands and workload conditions by introducing United Experts and a dynamic Brownout mechanism. Additionally, it integrates state-of-the-art optimization techniques such as PagedAttention, FlashAttention, and ContinuousBatching to further enhance performance.
 
+**Our paper has been accepted by *IEEE Transactions on Computers*. If you find our work useful, please consider citing it:**
+
+```bibtex
+@article{hu2026brownoutserve,
+  title={BrownoutServe: SLO-Aware Inference Serving under Bursty Workloads for MoE-based LLMs},
+  author={Hu, Jianmin and Xu, Minxian and Ye, Kejiang and Xu, Chengzhong},
+  journal={IEEE Transactions on Computers},
+  year={2026},
+  publisher={IEEE}
+}
+```
 ## Features
 
 ### Core Features
